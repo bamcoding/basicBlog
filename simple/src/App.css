@@ -1,3 +1,120 @@
+body {
+	background-color: #1a0033;
+	border : 2px solid #350066;
+	color : white;
+}
+
+input {
+	background-color: #1a0033;
+	border : 2px solid #350066;
+	color : white;
+	border-radius : 8px;
+}
+
+button {
+	background-color: #1a0033;
+	border : 2px solid #350066;
+	color : white;
+	border-radius : 8px;
+}
+
+.container_header {
+	min-height : 80px;
+	max-height : 10%;
+	border-bottom : 2px solid #350066;
+	margin : 10px;
+	
+}
+
+#container_searchKeyword {
+	border-radius : 8px;
+	width : 50%;
+	height : 50px;
+	background-color : #350066; 
+	display : inline-block;
+	margin : 10px;
+}
+
+#searchKeyword {
+	border : 0px;
+	width : 70%;
+	height : 40px;
+	margin : 5px;
+	background-color : #350066; 
+	outline : none;
+}
+
+.container_bottom {
+	min-height : 50px;
+	max-height : 10%;
+	border-top : 2px solid #350066;
+	float : clear;
+}
+
+.container_body {
+	min-height : 500px;
+	max-height : 88%;
+}
+
+.container_body_nav {
+	width : 20%;
+	display : inline-block;	
+	float : left;
+	cursor: pointer;
+}
+
+.container_body_content {
+	width : 79%;
+	display : inline-block;
+}
+
+.create_board {
+	border : 2px solid #350066; 
+	border-radius : 8px;
+	display : inline-block;
+	margin : 50px;
+}
+
+.create_board input {
+	border : 0px;
+	width : 300px;
+	height : 30px;
+	margin : 5px;
+}
+
+
+.create_board.on .create_board_content input{
+	height : 200px;
+}
+
+.container_board_list {
+	margin : 10px 5px 50px 5px;	
+}
+
+.container_board {
+	border : 2px solid #350066; 
+	border-radius : 8px;
+	display : inline-block;
+	height : 100px;
+	width : 200px;
+	margin : 5px;
+}
+
+.container_board div {
+	margin : 5px;
+}
+
+.tag {
+	height : 50px;
+	line-height : 3em;
+}
+
+.tag:hover {
+	height : 50px;
+	background-color : #350066;
+	border-radius : 0 30px 30px 0;
+}
+
 .App {
   text-align: center;
 }
