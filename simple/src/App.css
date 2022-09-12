@@ -95,9 +95,14 @@ button {
 	border : 2px solid #350066; 
 	border-radius : 8px;
 	display : inline-block;
-	height : 100px;
+	height : 45px;
 	width : 200px;
 	margin : 5px;
+	line-height : 2em;
+}
+
+.container_board:hover {
+	background-color : #350066;
 }
 
 .container_board div {
@@ -152,4 +157,29 @@ button {
   to {
     transform: rotate(360deg);
   }
+}
+
+.modal_board {
+	display: none;
+	background-color : #350066;
+	border-radius : 10px;	
+	position : absolute;
+	width : 500px;
+	height : 500px;
+	top : 15%;
+	left : 25%;
+	padding : 10px;
+	z-index : 100;
+}
+
+.dim {
+	display: none;
+	top : 0;
+	left : 0;
+	position : absolute;
+	width : 100%;
+	height : 100%;
+	opacity : 50%;
+	background-color : black;
+	z-index : 50;
 }
